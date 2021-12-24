@@ -1,9 +1,9 @@
 import serial
 import time
 import csv
-file_path = "/Users/joshmorrow/Desktop/rocket test stand/test1.csv"
+file_path = "Path to log csv file"
 
-ser = serial.Serial('/dev/cu.wchusbserial14230')
+ser = serial.Serial('Arduino Serial address')
 ser.flushInput()
 
 while True:

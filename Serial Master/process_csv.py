@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.integrate import quad
 
-file_path = "/Users/joshmorrow/Desktop/rocket test stand/test1.csv"
+file_path = "Path to CSV file"
 with open(file_path) as file_name:
     array = np.loadtxt(file_name, delimiter=",")
 
